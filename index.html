@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/rtl.css">
+
+    <!-- Responsive -->
+    <link rel="stylesheet" href="css/mobile-style.css">
+    <link rel="stylesheet" href="css/tablet-style.css">
+    <link rel="stylesheet" href="css/desktop-style.css">
+
+    <!-- Font-Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+
+    <!-- AOS CSS -->
+    <link href="https://unpkg.com/aos@next/dist/aos.css" rel="stylesheet" />
+
+    <!-- For SEO-->
+    <!-- <title>MedDesign | Webentwicklung & Portfolio </title> -->
+    <title>Document</title>
+
+    <!-- A summary of the site appears in the search engine-->
+    <meta name="description"
+        content="Entdecken Sie meine kreativen Webdesign-Projekte. Ich entwickle moderne, responsive Webseiten mit HTML & CSS.">
+    <!-- Keywords -->
+    <meta name="keywords" content="Webdesign, Portfolio, HTML, CSS, Freelancer, MedDesign">
+    <!-- Gives credibility to the site.-->
+    <meta name="author" content="Attaf Mohamed">
+</head>
+
+<body>
+    <header class="main-header">
+        <div class="sub-header">
+            <a href="#"><span class="logo">Sera<span style="color: rgb(60, 254, 46);">lin</span></span></a>
+            <input type="checkbox" id="menu-toggle" class="menu-toggle">
+            <label for="menu-toggle" class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+            <div class="overlay"></div>
+
+            <div class="menu">
+                <nav>
+                    <ul>
+                        <!-- <li><a href="#home">Home</a></li> -->
+                        <li><a href="#about">عَنِّي</a></li>
+                        <li><a href="#projects">مشاريع</a></li>
+                        <li><a href="#benefit"> فَائِدَة</a></li>
+                        <li><a href="#services">خدمات</a></li>
+                        <li><a href="#contact">التواصل</a></li>
+                        <li><a href="#project-start" style="color: rgb(60, 254, 46);">أطلق مشروعك</a></li>
+
+                    </ul>
+                </nav>
+            </div>
+
+            <!-- Sprache der Website -->
+            <div class="wbsite-sprache">
+                <div class="sprache">
+                    <a href="https://attmedgit.github.io/mein-projekt-test/">English
+                    </a>
+                </div>
+                <div class="sprache">
+                    <a href="#">Deutsch</a>
+                </div>
+                <div class="sprache">
+                    <a href="#">العربية</a>
+                </div>
+
+            </div>
+
+        </div>
+    </header>
+    <!-- Sprache der Website-For-Mobile -->
+    <div class="wbsite-sprache-mobile">
+        <div class="sprache">
+            <a href="https://attmedgit.github.io/mein-projekt-test/">English</a>
+        </div>
+        <div class="sprache">
+            <a href="#">Deutsch</a>
+        </div>
+        <div class="sprache" style="background-color: rgb(236, 236, 236);">
+            <a href="" style="color: black;">العربية</a>
+        </div>
+
+    </div>
+
+    <!-- Main-Content -->
+    <main>
+        <!-- Banner -->
+        <section class="main-banner">
+            <div class="sub-banner">
+                <div class="banner-titel">
+                    <h1>
+                        <span style="color: rgb(60, 254, 46);"> مطور واجهات أمامية ومصمم مواقع ويب ثابتة </span> - مستقل
+                    </h1>
+                    <p> سواء كنت تبني علامة تجارية، تقدم خدمة، أو تدير مشروعًا صغيرًا أو متوسطًا، منصتنا هي الأنسب
+                        لوجهتك، نصمم مواقع ويب
+                        متجاوبة مع الهواتف تُبرز رسالتك بوضوح — وتعمل بسلاسة على جميع الأجهزة
+                    </p>
+                    <div class="banner-button">
+                        <a href="#project-start"><button>أطلق مشروعك</button></a>
+                    </div>
+                </div>
+                <div class="banner-image">
+                    <img src="imgs/Bannière minimaliste géométrique noir et blanc meddd.png">
+                </div>
+            </div>
+        </section>
+
+        <!-- About -->
+        <section class="main-about" id="about">
+            <div class="sub-about">
+                <img src="imgs/profil-about.jpg">
+                <div class="about">
+                    <h2>■ عَنِّي</h2>
+                    <p>
+                        مرحبًا، أنا محمد من المغرب. بالنسبة لي، تصميم الويب ليس مجرد كتابة أكواد وتخطيط – إنه فن جعل
+                        الأفكار مرئية. كل مشروع يحكي قصته الخاصة، وأنا أعشق صياغة تلك القصص بالتعاون مع أشخاص من قطاعات
+                        متنوعة. سواء كنت تفضل الأسلوب البسيط أو المرح، معًا سنكتشف الأسلوب الذي يناسبك ويجعل موقعك
+                        فريدًا بحق
+                    </p>
+                    <button>
+                        <a href="https://mail.google.com/mail/?view=cm&fs=1&to=attafm41@gmail.com" target="_blank"
+                            class="gmail-button">
+                            <span class="text">رسالتك</span>
+                            <span class="icon"><i class="fa-solid fa-envelope fa-fade"></i></span>
+                        </a>
+                    </button>
+                </div>
+            </div>
+            <hr>
+        </section>
+
+        <!-- Projects -->
+        <article class="main-projects" id="projects">
+            <div class="project-titel">
+                <h2>■ مشاريع</h2>
+                <p>
+                    جرب المنتج الآن: انقر على "الصورة" أدناه لمعاينة تفاعلية تمكنك من استكشاف أبرز الميزات وتجربة واجهة
+                    المستخدم مباشرة.
+                </p>
+            </div>
+            <section class="sub-projects">
+                <!-- Project-01 -->
+                <div class="project-box">
+                    <a href="https://attmedgit.github.io/-project-9-ui-css-html-responsive-design/">
+                        <img src="imgs/project-one.jpg">
+                        <h3>أستاذ لغة إنجليزية</h3>
+                        <p>موقع احترافي مصمم لعرض خدمات الأستاذ وتمكين الحجز السهل للدروس المباشرة.</p>
+                    </a>
+                </div>
+
+                <!-- Project-02  -->
+                <div class="project-box">
+                    <a href="https://attmedgit.github.io/-project-6-ui-css-html-responsive-design/">
+                        <img src="imgs/project-one.jpg">
+                        <h3>تأجير السيارات</h3>
+                        <p>موقع عصري لتأجير السيارات مُصمم لعرض مركبات مميزة بصور عالية الجودة، ويسهل عملية الحجز
+                            بشفافية كاملة في الأسعار.</p>
+                    </a>
+                </div>
+
+                <!-- Project-03  -->
+                <div class="project-box">
+                    <a href="https://attmedgit.github.io/-project-8-ui-css-html-responsive-design/">
+                        <img src="imgs/project-one.jpg">
+                        <h3>حلويات منزلية للبيع</h3>
+                        <p>موقع حلويات أنيق لعرض الحلويات المخصصة وتمكين طلبات بسيطة للمناسبات والاحتفالات.</p>
+                    </a>
+                </div>
+
+                <!-- Project-04  -->
+                <div class="project-box">
+                    <a href="https://attmedgit.github.io/-project-7-ui-css-html-responsive-design/">
+                        <img src="imgs/project-one.jpg">
+                        <h3>متجر إلكتروني لمنتج واحد</h3>
+                        <p>موقع تجارة إلكترونية يركز على الجوانب البصرية، مُصمم لإبراز منتج فردي من خلال تخطيط جذاب
+                            وتجربة شراء محلية سلسة.</p>
+                    </a>
+                </div>
+            </section>
+        </article>
+
+        <!-- hero-section -->
+        <section id="benefit" class="main-hero">
+            <div class="benefit-titel">
+                <h2>■ فَائِدَة</h2>
+            </div>
+            <div class="hero">
+                <p><i class="fa fa-credit-card" aria-hidden="true"></i> <strong style="color: rgb(60, 254, 46);">ادفع
+                        مرة واحدة،</strong> واحصل على ملكية دائمة للموقع! <span style="font-size: 1.5em;">🎉</span>​
+                </p>
+                <span>
+                    <p>ادفع مرة واحدة واحصل على وصول كامل لموقعك الإلكتروني المُصمّم خصيصًا لك، بما في ذلك شفرة المصدر
+                        وملفات التصميم وإعدادات الاستضافة. لا اشتراكات ولا قيود. إنه ١٠٠% ملكك تمامًا.</p>
+                </span>
+            </div>
+        </section>
+
+        <!-- Social-Media -->
+        <section class="main-social-media">
+            <div class="sub-social-media">
+                <!-- LinkedIn -->
+                <div class="social">
+                    <a href="#">
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </a>
+                </div>
+
+                <!-- Instagram -->
+                <div class="social">
+                    <a href="#">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                </div>
+
+                <!-- facebook -->
+                <div class="social">
+                    <a href="#">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                </div>
+
+                <!-- TikTok -->
+                <div class="social">
+                    <a href="#">
+                        <i class="fa-brands fa-tiktok"></i>
+                    </a>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- Services -->
+        <section class="main-services" id="services">
+            <div class="services-titel">
+                <h2>■ خدمات</h2>
+                <p><strong>استمتع ب 3 أشهر مجانية كاملة لخدمة وتطوير موقعك، </strong> مع عمل تحسينات مخصصة تلائم
+                    احتياجات عملك بشكل كامل.</p>
+            </div>
+
+            <div class="sub-services">
+
+                <!-- Webdesigner -->
+                <div class="services">
+                    <i class="fas fa-laptop-code fa-5x" style="color: rgb(255, 255, 255);"></i>
+                    <div class="info-srvices">
+                        <span>تصميم ويب متجاوب</span>
+                        <p>مواقع ويب متجاوبة بدقة عالية، تتكيف بسلاسة مع أجهزة الكمبيوتر المكتبية والأجهزة اللوحية
+                            والأجهزة المحمولة.</p>
+                    </div>
+                </div>
+
+                <!-- Seo -->
+                <div class="services">
+                    <i class="fas fa-search-plus fa-5x" style="color: rgb(255, 255, 255);" title="SEO"></i>
+                    <div class="info-srvices">
+                        <span>تحسين محركات البحث </span>
+                        <p><span style="color: rgb(60, 254, 46); font-weight: bold;">نتولى برفع موقعك الإلكتروني إلى
+                                جوجل، </span>ومتابعة أدائه في نتائج البحث، بينما دورك يقتصر على متابعة النتائج. نقوم
+                            بتحسين الكلمات المفتاحية والمحتوى والترتيب لضمان أقصى ظهور ممكن.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Project Tracking -->
+                <div class="services">
+                    <i class="fas fa-project-diagram fa-5x" style="color: rgb(255, 255, 255);"></i>
+                    <div class="info-srvices">
+                        <span>تتبع المشروع</span>
+                        <p>استمتع بتحسين مجاني لمدة 3 أشهر: سأصقل وأعدل موقعك ليناسب رؤيتك المتطورة</p>
+                    </div>
+                </div>
+
+                <!-- Support -->
+                <div class="services">
+                    <i class="fas fa-headset fa-5x" style="color: rgb(255, 255, 255);" title="Support"></i>
+                    <div class="info-srvices">
+                        <span>الدعم الفني</span>
+                        <p>إصلاحات فورية، تحديثات، وأمان — نحافظ على موقعك مثاليًا بعد الإطلاق</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <hr>
+
+        <!-- Contact -->
+        <section class="main-contact" id="contact">
+            <div class="contact-titel">
+                <h2>■ التواصل</h2>
+                <p>
+                    نرحب بك للاتصال بنا عبر واتساب لمناقشة تفاصيل مشروعك. في حال عدم التوفر، يرجى النقر على أيقونات
+                    وسائل التواصل الاجتماعي الظاهرة على الجانب الأيسر من الشاشة أو عبر <a
+                        href="https://mail.google.com/mail/?view=cm&fs=1&to=attafm41@gmail.com"
+                        style="color: rgb(100, 60, 161); font-weight: bold;" target="_blank">البريد الإلكتروني</a>,
+                    وسأرد عليك في أقرب وقت ممكن.
+                </p>
+            </div>
+            <div class="sub-contact">
+                <p>👋 مرحبًا عزيزي، دعنا نناقش مشروعك معًا لتحويله إلى إنجاز متميز!</p>
+                <div>
+                    <button>
+                        <a href="https://wa.me/+212706627007?text=مرحباً،%20أريد%20الاستفسار%20عن..." target="_blank"
+                            class="whatsapp-button">
+                            <span class="text">راسلني الآن </span>
+                            <span class="icon"> <i class="fa-brands fa-whatsapp fa-bounce fa-2x"></i></span>
+
+                        </a>
+
+                    </button>
+                </div>
+
+            </div>
+            <div>
+
+            </div>
+        </section>
+        <hr>
+
+        <!-- Project Start -->
+        <section class="main-ps" id="project-start">
+            <div class="ps-titel">
+                <h2>■ ابدأ مشروعك</h2>
+                <p>
+                    لا تدع فكرتك تبقى حبرًا على الورق! أنشئ موقعك الإلكتروني اليوم واطلق مشروعك الرقمي الذي يعكس ابداعك
+                    المهني بشكل أمين.⚡سوف نقوم بالرد خلال 24 ساعة!</p>
+            </div>
+
+            <div class="sub-ps">
+                <!-- modify this form HTML and place wherever you want your form -->
+                <form action="https://formspree.io/f/xqalzqbz" method="POST">
+                    <div class="info-ps">
+                        <div class="name">
+                            <label>
+                                <input type="text" name="name" placeholder="الاسم الكامل">
+                            </label>
+                        </div>
+                        <div class="email">
+                            <label>
+                                <input type="email" name="email" placeholder="البريد الاكتروني">
+                            </label>
+                        </div>
+
+                        <div class="Company type">
+                            <label>
+                                <input type="text" name="Company type" placeholder="نوع الشركة/ الخدمة">
+                            </label>
+                        </div>
+                        <div class="phone number">
+                            <label>
+                                <input type="text" name="phone number" placeholder="رقم الهاتف">
+                            </label>
+                        </div>
+                    </div>
+
+                    <div class="desc-ps">
+                        <label>
+                            <textarea name="message" placeholder="أصف مشروعك.."></textarea>
+                        </label>
+                    </div>
+                    <!-- your other form fields go here -->
+                    <button type="submit">أرسل</button>
+                </form>
+            </div>
+        </section>
+        <hr class="hr">
+        <!-- seralin -->
+        <section class="seralin">
+            <p>SERALIN</p>
+        </section>
+
+        <!-- footer -->
+        <section>
+            <div class="copyright">
+                <p>&copy; 2025 — جميع الحقوق محفوظة.</p>
+            </div>
+        </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </main>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script src="javascript.js"></script>
+</body>
+
+</html>
