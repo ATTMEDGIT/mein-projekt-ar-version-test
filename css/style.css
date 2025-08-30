@@ -355,7 +355,7 @@ hr {
 /* Social-Media */
 .sub-social-media {
     position: absolute;
-    left: -3px;
+    left: -5px;
     bottom: 40%;
     z-index: 1000;
 }
@@ -364,11 +364,14 @@ hr {
     display: flex;
     flex-direction: column;
     text-align: center;
-    gap: 13px;
+    gap: 3px;
     position: fixed;
+}
+
+.social {
     background-color: rgb(60, 254, 46);
     padding: 8px 13px;
-    border-radius: 0 20px 20px 0;
+    border-radius: 0 10px 10px 0;
 }
 
 .social>a>i {
