@@ -315,7 +315,7 @@ hr {
     border: none;
     margin-top: 20px;
     cursor: pointer;
-    background-color: rgb(60, 254, 46);
+    background-color: #643ca1;
     border-radius: 100px;
     padding: 10px 15px;
     font-weight: bold;
@@ -574,16 +574,16 @@ form>button {
     margin-bottom: 50px
 }
 
-.seralin {
+.endorweb {
     text-align: center;
     margin: 0 auto;
 
 }
 
-.seralin>p {
+.endorweb>p {
     font-size: 19vw;
     white-space: nowrap;
-    color: rgba(196, 196, 196, 0.306);
+    color: rgba(196, 196, 196, 0.397);
 }
 
 .copyright {
